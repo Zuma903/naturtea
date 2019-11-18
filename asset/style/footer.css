@@ -1,0 +1,13 @@
+footer .display-6 {
+    border-bottom: 3px rgb(144, 238, 144) solid;
+}
+
+footer .btn:hover {
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.copyright {
+    background: rgba(75, 71, 71, 0.719);
+    padding: 5px;
+    align-content: center;
+}

@@ -1,0 +1,9 @@
+.bungkuskonten {
+    background-image: url("/naturtea-template/asset/img/bg/NatureTea.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.konten {
+    height: 1000px;
+}

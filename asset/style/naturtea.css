@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    position: relative;
+    overflow: hidden;
+    background-image: url("/naturtea-template/asset/img/bg/NatureTea.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.parallax-content {
+    z-index: 1;
+    position: relative;
+}
+
+.parallax-content h1 {
+    padding-top: 20%;
+}
+
+.btn {
+    letter-spacing: 2px;
+}
+
+.pemisah {
+    background-color: lightgreen;
+    height: 100px;
+}
+
+.pemisah h2 {
+    letter-spacing: 20px;
+}
+
+.bio {
+    background-image: url("/naturtea-template/asset/img/bg/NatureTea3.png");
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 100px;
+}
+
+@media only screen and (max-width: 620px) {
+
+    .parallax-content h1 {
+        padding-top: 75%;
+    }
+
+    .pemisah h2 {
+        letter-spacing: 10px;
+    }
+}
