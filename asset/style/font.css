@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "parallaxh1";
+    src: url("/naturtea-template/asset/font/Cocogoose\ Pro\ Outlined\ Trial.ttf");
+}
+
+.parajud {
+    font-family: parallaxh1;
+    color: green;
+}
+
+@font-face {
+    font-family: "parallaxh3";
+    src: url("/naturtea-template/asset/font/Greetings.ttf");
+}
+
+.paracon {
+    font-family: parallaxh3;
+}
+
+@font-face {
+    font-family: "pemisah";
+    src: url("/naturtea-template/asset/font/Megi\ Sans_narrow_demo.otf");
+}
+
+.pemisah {
+    font-family: pemisah;
+}
+
+@font-face {
+    font-family: support;
+    src: url("/naturtea-template/asset/font/Cocogoose\ Pro\ Ultralight\ Trial.ttf");
+}
+
+.navbar-collapse, .support {
+    font-family: support;
+}
+
+@font-face {
+    font-family: unique;
+    src: url("/naturtea-template/asset/font/Greetings.ttf");
+}
+
+.unique {
+    font-family: unique;
+}

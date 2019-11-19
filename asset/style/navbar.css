@@ -1,9 +1,8 @@
 nav {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(65, 65, 65, 0);
+    padding: 10px;
 }
 
-.nav-link:hover {
-    border-radius: 5%;
-    background-color: lightgreen;
-    font-style: italic;
+.dropdown:hover>.dropdown-menu {
+    display: block;
 }
