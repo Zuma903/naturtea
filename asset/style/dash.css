@@ -1,9 +1,56 @@
-.bungkuskonten {
-    background-image: url("/naturtea-template/asset/img/bg/NatureTea.png");
-    background-attachment: fixed;
+body {
+    background-image: url("/naturtea-template/asset/img/bg/NatureTea4.png");
     background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
 }
 
-.konten {
-    height: 1000px;
+#body {
+    margin-top: 150px;
+}
+
+.caroimg {
+    width: 100%;
+    height: 600px;
+}
+
+.banner {
+    background-image: url("/naturtea-template/asset/img/gmbr/banner.jpg");
+    background-position-y: -600px;
+    height: 250px;
+    color: white;
+}
+
+.list-link {
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-top: 50px;
+    }
+
+    .page-nav {
+        margin-top: 250px;
+    }
+} 
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-header {
+    background-color: lightgreen;
+}
+
+.page-nav {
+    margin-top: 250px;
+}
+
+.baca {
+    letter-spacing: 5px;
 }
